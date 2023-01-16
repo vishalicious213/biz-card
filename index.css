@@ -1,17 +1,31 @@
 body {
     margin: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
+    /* outline: 1px solid red; */
     width: 400px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+    border-bottom: 2px solid black;
+}
+
+#img-container {
+    width: 110px;
+    padding: 0 1rem;
 }
 
 img {
     width: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
 }
 
-#img-container {
-    width: 150px;
+#text-container {
+    background-color: gray;
+    padding: 0 2rem;
+    text-align: right;
 }
