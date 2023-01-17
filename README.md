@@ -17,4 +17,13 @@ This was a Scrimba project. It was a static page that showed a profile picture, 
     - d attribute
     - \<path>
 
+
+## CSS concepts
+
+- display: flex
+    - justify-content
+    - align-items
+- fill (for SVGs)
+- :hover
+
 Deployed at: https://vish213-biz-card.netlify.app/
